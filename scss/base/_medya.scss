@@ -1,0 +1,338 @@
+//1200 - 993
+//992 -769
+//768-577
+//576-320
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+@media screen and (max-width: 768px) {
+    :root {
+        --shikalatrasim_pasti_mobil: 71px;
+        --pading-bulog: 72px;
+        --text-bottom: 50px;
+        --gap: 32px;
+    }
+    .container {
+        max-width: 704px;
+        // position: relative;
+    }
+    .navbar {
+        // position: relative;
+        .navbar_items {
+            .text {
+                // display: none;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                width: 50%;
+                background: #1e1823;
+                position: fixed;
+                top: 0;
+                right: -200%;
+                z-index: 50;
+                transition: 0.3s all;
+                li {
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+            .text-active {
+                right: 0;
+                transition: 0.3s all;
+            }
+            .birlashma {
+                display: none;
+            }
+            .hamburger {
+                position: fixed;
+                z-index: 60;
+                right: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 5px 1.5px;
+                height: 24px;
+                width: 30px;
+                background: none;
+                border: none;
+                transition: 0.3s all;
+                .line {
+                    display: block;
+                    height: 2px;
+                    width: 100%;
+                    background: #000;
+                    transition: 0.3s all;
+                }
+            }
+            .hamburger-active {
+                transition: 0.3s all;
+                .line {
+                    background: #fff;
+                    &:nth-child(1) {
+                        transform: translate(-1px, 5px) rotate(45deg);
+                    }
+                    &:nth-child(2) {
+                        display: none;
+                    }
+                    &:nth-child(3) {
+                        transform: translate(-1px, -6px) rotate(-45deg);
+                    }
+                }
+            }
+        }
+    }
+
+    .section2 {
+        .tortburchak {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px 60px;
+
+            .tortburchak1 {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+
+    .section3 {
+        .birlashma {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    .section4 {
+        .birlashma {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+
+            .img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .birlashma1 {
+                padding: 32px 32px;
+            }
+        }
+    }
+    .section5 {
+        .birlashma {
+            grid-template-columns: repeat(2, 1fr);
+            :nth-child(4) {
+                display: none;
+            }
+            :nth-child(3) {
+                display: none;
+            }
+        }
+    }
+
+    .section6 {
+        .birlashma {
+            grid-template-columns: repeat(2, 1fr);
+
+            .img {
+                &:nth-child(3) {
+                    display: none;
+                }
+            }
+        }
+    }
+    .section7 {
+        .birlashma {
+            grid-template-columns: repeat(2, 1fr);
+            .birlashma2 {
+                &:nth-child(3) {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 335px;
+    }
+    :root {
+        --text: 20px;
+        --padind1: 12px;
+        --padind2: 28px;
+        --shikalatrasim_text: 20px;
+        --pading-bulog: 72px;
+        --text-bottom: 50px;
+    }
+
+    .navbar {
+        .text {
+            // display: none;
+        }
+        .birlashma {
+            // display: none;
+        }
+    }
+
+    .section {
+        .vraber {
+            position: absolute;
+
+            height: 219px;
+            bottom: 20px;
+            padding-inline: 0px;
+            left: auto;
+        }
+        .text {
+            display: none;
+        }
+        .text-ortiqcha {
+            display: flex;
+        }
+
+        .birlashma {
+            flex-direction: column;
+            align-items: start;
+            gap: 30px;
+        }
+    }
+
+    .section2 {
+        .tortburchak {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 40px 60px;
+
+            .tortburchak1 {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+
+    .section3 {
+        .birlashma {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    .section4 {
+        .birlashma {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+
+            .img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .birlashma1 {
+                padding: 32px 32px;
+            }
+        }
+    }
+    .section5 {
+        .birlashma {
+            grid-template-columns: repeat(1, 1fr);
+            :nth-child(4) {
+                display: none;
+            }
+            :nth-child(3) {
+                display: none;
+            }
+            :nth-child(2) {
+                display: none;
+            }
+        }
+    }
+
+    .section6 {
+        .birlashma {
+            grid-template-columns: repeat(1, 1fr);
+            .text5 {
+                display: flex;
+                color: rgba(17, 17, 17, 1);
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 18px;
+                letter-spacing: -2%;
+            }
+
+            .img {
+                &:nth-child(3) {
+                    display: none;
+                }
+            }
+        }
+        .text {
+            display: none;
+        }
+
+        .tugma {
+            margin: 0 auto;
+        }
+    }
+    .section7 {
+        .birlashma {
+            grid-template-columns: repeat(1, 1fr);
+            .birlashma2 {
+                &:nth-child(3) {
+                    display: none;
+                }
+                &:nth-child(2) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .oxiri {
+        background: rgba(30, 24, 35, 1);
+        padding-block: 50px 50px;
+
+        .oxiri2 {
+            .Chocolate {
+                display: grid;
+
+                grid-template-columns: repeat(1, 1fr);
+
+                gap: 32px;
+
+                .birlashma2 {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .contact {
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 18px;
+                        letter-spacing: 0%;
+                        text-align: start;
+                        .text2 {
+                            transform: translate(-30px, 0);
+                            margin-bottom: 14px;
+                            color: rgba(255, 255, 255, 1);
+
+                            font-family: Montserrat;
+                            font-size: 14px;
+                            font-weight: 500;
+                            line-height: 18px;
+                            letter-spacing: 0%;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+            .text5 {
+                flex-direction: column;
+                align-items: start;
+            }
+        }
+    }
+}

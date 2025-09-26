@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+figure,
+p,
+ol,
+ul {
+    margin: 0;
+}
+
+ol[role='list'],
+ul[role='list'] {
+    list-style: none;
+    padding-inline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+.container{
+    max-width: 1136px;
+    margin: 0 auto;
+    height: 100%;
+
+}
+body{
+   background: rgba(255, 255, 255, 1);
+   overflow-x: hidden;
+}
+@import './base/vraber';
+@import './base/mixsin';
+@import'./blocks/navbar';
+@import'./blocks/section';
+@import './blocks/section2';
+@import './blocks/section3';
+@import './blocks/section4';
+@import './blocks/section5';
+@import './blocks/section6';
+@import './blocks/section7';
+@import './blocks/section8';
+@import './blocks/oxiri';
+@import './base/medya';
+
+

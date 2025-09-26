@@ -1,0 +1,61 @@
+.section2{
+    padding-block: 50px;
+  background-color: rgba(30, 24, 35, 1);
+    .tortburchak{
+      display: grid;
+grid-template-columns: repeat(3,1fr);
+
+justify-content: center;
+      gap: 70px;
+  
+      .tortburchak1{
+            display: flex;
+      justify-content: center;
+   
+      gap: 20px;
+        .tortburchak3{
+
+        .aylana{
+           width: 45px;
+           height: 45px;
+           color:rgba(253, 146, 34, 1);
+           display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            border: 1px solid rgba(255, 255, 255, 0.822);
+            font-size: 25px;
+            margin-bottom: 22px;
+        }
+        .text{
+            color: rgba(255, 255, 255, 1);
+font-size: 18px;
+font-weight: 600;
+line-height: 100%;
+margin-bottom: 18px;
+
+        }
+        .text2{
+color: rgba(255, 255, 255, 0.7);
+
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: -2%;
+
+        }
+
+      }
+              .chiziq{
+
+width: 124px;
+height: 0;
+transform: rotate(90.00deg);
+
+
+
+border: 1px solid rgba(255, 255, 255, 0.527);
+        }
+    }
+}}

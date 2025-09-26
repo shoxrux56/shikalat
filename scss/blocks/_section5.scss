@@ -1,0 +1,97 @@
+.section5{
+   padding-block: 0 var(--pading-bulog);
+
+    .how{
+font-size: 24px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: -3%;
+text-align: center;
+text-transform: uppercase;
+margin-bottom: var(--text-bottom);
+
+    }
+    span{
+        color: rgba(253, 146, 34, 1);
+
+    }
+.birlashma{
+    padding-block: 0px 32px;
+    gap: 18px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+ 
+    
+    .birlashma2{
+padding: 32px 20px;
+box-sizing: border-box;
+border: 1px solid rgba(17, 17, 17, 0.1);
+border-radius: 15px;
+
+
+      &:hover{
+       box-shadow: -10px 10px 10px 2px gold;  
+ transform: translate(-5px,5px);
+ 
+  }
+.shikalat{
+    min-height: 201px; 
+  width: 100%;
+}
+.text{
+    color: rgba(17, 17, 17, 1);
+font-size: 18px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: -2%;
+text-transform: uppercase;
+text-align: center;
+}
+.text2{
+    color: rgba(17, 17, 17, 0.7);
+
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: -2%;
+text-align: center;
+margin-bottom: 18px;
+}
+.tugma{
+    padding: 8px 20px;
+    color: rgba(17, 17, 17, 1);
+box-sizing: border-box;
+border: 1px solid rgba(17, 17, 17, 0.1);
+border-radius: 100px;
+background: rgba(250, 250, 250, 1);
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 600;
+line-height: 100%;
+margin: 0 auto;
+display: block;
+}
+    }
+}
+.aynalar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    .aylana1{
+     background: rgba(253, 146, 34, 1);
+width: 28px;
+height: 13px;
+border-radius: 35%;}
+    
+    .aylana{
+width: 13px;
+height: 13px;
+background: rgba(17, 17, 17, 0.1);
+border-radius: 50%;
+    }
+
+
+
+}}
